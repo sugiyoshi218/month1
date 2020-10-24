@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+header>h1{
+    margin: 0;
+    line-height: 70px;
+    padding-left: 20px;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+}
+#navi{
+    width: 100%;
+}
+#navi ul{
+    margin: 0;
+    line-height: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+header div ul li{
+    width: 150px;
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+li:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+main{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    height: 100fr;
+    display: flex;
+}
+
+h1>a{
+    color: black;
+}
+main img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right:50px;
+}
+.access{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+}

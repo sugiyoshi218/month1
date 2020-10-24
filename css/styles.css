@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+header>h1{
+    margin: 0;
+    line-height: 70px;
+    padding-left: 20px;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+}
+#navi{
+    width: 100%;
+}
+#navi ul{
+    margin: 0;
+    line-height: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+header div ul li{
+    width: 150px;
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+li:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+
+main{
+    background-color: bisque;
+}
+.contents{
+    height: 300px;
+    text-align: center;
+}
+
+.news{
+    height: 400px;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+.newsContents{
+    display: flex;
+}
+.news h2{
+    text-align: center;
+}
+.news ul{
+    padding: 0 30px;
+    text-align: center;
+    justify-content: space-between; 
+    border-radius: 6px;
+}
+.news ul img{
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.newsContents ul:hover{
+    background-color: wheat;
+}
+
+
+footer{
+    height: 250px;
+}
+footer ul{
+    margin: 0;
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+footer ul li{
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+footer ul li:hover{
+    background-color: peachpuff;
+}

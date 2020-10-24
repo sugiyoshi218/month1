@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+header>h1{
+    margin: 0;
+    line-height: 70px;
+    padding-left: 20px;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 20px;
+}
+
+fieldset{
+    margin: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+h1 a{
+    color: black;
+}
+
+#navi{
+    width: 100%;
+}
+#navi ul{
+    margin: 0;
+    line-height: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+header div ul li{
+    width: 150px;
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+li:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
